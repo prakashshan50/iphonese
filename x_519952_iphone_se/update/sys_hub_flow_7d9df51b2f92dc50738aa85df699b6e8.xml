@@ -26,21 +26,21 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 14:59:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>7d9df51b2f92dc50738aa85df699b6e8</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Buy Iphone SE Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Iphone se" source="x_519952_iphone_se">f5ab65d72f52181048e8e36ef699b637</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
         <sys_update_name>sys_hub_flow_7d9df51b2f92dc50738aa85df699b6e8</sys_update_name>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
-    <sys_translated_text action="delete_multiple" query="documentkey=7d9df51b2f92dc50738aa85df699b6e8"/>
     <sys_variable_value action="delete_multiple" query="document_key=7d9df51b2f92dc50738aa85df699b6e8"/>
     <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -50,20 +50,24 @@
         <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>868ef15b2f92dc50738aa85df699b6e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
         <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
     </sys_flow_catalog_trigger>
     <sys_hub_flow_component action="delete_multiple" query="flow=7d9df51b2f92dc50738aa85df699b6e8^sys_idNOT IN197eb15b2f92dc50738aa85df699b66c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="NTA DCA V2  VPC Worklog">6593f4eb2f31d810738aa85df699b6d0</action_type>
+        <action_type display_value="">6593f4eb2f31d810738aa85df699b6d0</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -74,9 +78,15 @@
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>197eb15b2f92dc50738aa85df699b66c</sys_id>
         <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
         <ui_id>ba22098c-6f6f-4be3-9a76-ac5e047b4be9</ui_id>
@@ -96,31 +106,6 @@
         <value>Ordered Successfully</value>
         <variable display_value="">a593f4eb2f31d810738aa85df699b6d1</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=197eb15b2f92dc50738aa85df699b66c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>message</field>
-        <id>197eb15b2f92dc50738aa85df699b66c</id>
-        <sys_created_by>Prakash</sys_created_by>
-        <sys_created_on>2020-08-03 15:03:38</sys_created_on>
-        <sys_id>997eb15b2f92dc50738aa85df699b66e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prakash</sys_updated_by>
-        <sys_updated_on>2020-08-03 15:03:38</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6593f4eb2f31d810738aa85df699b6d0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sys_id_var</field>
-        <id>197eb15b2f92dc50738aa85df699b66c</id>
-        <sys_created_by>Prakash</sys_created_by>
-        <sys_created_on>2020-08-03 15:03:38</sys_created_on>
-        <sys_id>d17eb15b2f92dc50738aa85df699b66f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prakash</sys_updated_by>
-        <sys_updated_on>2020-08-03 15:03:38</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6593f4eb2f31d810738aa85df699b6d0</table>
-        <value>{{Service Catalog_1.request_item.sys_id}}</value>
-    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=7d9df51b2f92dc50738aa85df699b6e8^sys_idNOT IN197eb15b2f92dc50738aa85df699b669"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -128,11 +113,18 @@
         <flow display_value="Buy Iphone SE Flow">7d9df51b2f92dc50738aa85df699b6e8</flow>
         <name>Service Catalog</name>
         <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>197eb15b2f92dc50738aa85df699b669</sys_id>
         <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
@@ -145,11 +137,18 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>7d9df51b2f92dc50738aa85df699b6e8</id>
         <name>Buy Iphone SE Flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 14:59:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b59df51b2f92dc50738aa85df699b6eb</sys_id>
         <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 14:59:51</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -215,11 +214,13 @@
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8d7eb15b2f92dc50738aa85df699b652</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
@@ -296,11 +297,13 @@
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c97e315b2f92dc50738aa85df699b6bb</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
@@ -319,8 +322,7 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=7d9df51b2f92dc50738aa85df699b6e8^sys_idNOT IN197eb15b2f92dc50738aa85df699b66c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="NTA DCA V2  VPC Worklog">6593f4eb2f31d810738aa85df699b6d0</action_type>
+        <action_type display_value="">6593f4eb2f31d810738aa85df699b6d0</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -331,9 +333,15 @@
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>197eb15b2f92dc50738aa85df699b66c</sys_id>
         <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
         <ui_id>ba22098c-6f6f-4be3-9a76-ac5e047b4be9</ui_id>
@@ -353,31 +361,6 @@
         <value>Ordered Successfully</value>
         <variable display_value="">a593f4eb2f31d810738aa85df699b6d1</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=197eb15b2f92dc50738aa85df699b66c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>message</field>
-        <id>197eb15b2f92dc50738aa85df699b66c</id>
-        <sys_created_by>Prakash</sys_created_by>
-        <sys_created_on>2020-08-03 15:03:38</sys_created_on>
-        <sys_id>997eb15b2f92dc50738aa85df699b66e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prakash</sys_updated_by>
-        <sys_updated_on>2020-08-03 15:03:38</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6593f4eb2f31d810738aa85df699b6d0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sys_id_var</field>
-        <id>197eb15b2f92dc50738aa85df699b66c</id>
-        <sys_created_by>Prakash</sys_created_by>
-        <sys_created_on>2020-08-03 15:03:38</sys_created_on>
-        <sys_id>d17eb15b2f92dc50738aa85df699b66f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prakash</sys_updated_by>
-        <sys_updated_on>2020-08-03 15:03:38</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6593f4eb2f31d810738aa85df699b6d0</table>
-        <value>{{Service Catalog_1.request_item.sys_id}}</value>
-    </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7d9df51b2f92dc50738aa85df699b6e8^sys_idNOT IN057eb15b2f92dc50738aa85df699b65a,417eb15b2f92dc50738aa85df699b651"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
@@ -390,13 +373,15 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>057eb15b2f92dc50738aa85df699b65a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Iphone se" source="x_519952_iphone_se">f5ab65d72f52181048e8e36ef699b637</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_7d9df51b2f92dc50738aa85df699b6e8_table_name_en</sys_update_name>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:38</sys_updated_on>
         <url/>
@@ -413,13 +398,15 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>417eb15b2f92dc50738aa85df699b651</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Iphone se" source="x_519952_iphone_se">f5ab65d72f52181048e8e36ef699b637</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_7d9df51b2f92dc50738aa85df699b6e8_request_item_en</sys_update_name>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:38</sys_updated_on>
         <url/>
@@ -431,14 +418,20 @@
         <plan/>
         <plan_id>7d9df51b2f92dc50738aa85df699b6e8</plan_id>
         <snapshot>f98ef15b2f92dc50738aa85df699b662</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>ce8ef15b2f92dc50738aa85df699b6e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
         <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
         <trigger display_value="">868ef15b2f92dc50738aa85df699b6e6</trigger>
@@ -467,28 +460,27 @@
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>f98ef15b2f92dc50738aa85df699b662</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:57</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=f98ef15b2f92dc50738aa85df699b662"/>
     <sys_variable_value action="delete_multiple" query="document_key=f98ef15b2f92dc50738aa85df699b662"/>
     <sys_hub_flow_component action="delete_multiple" query="flow=f98ef15b2f92dc50738aa85df699b662^sys_idNOT IN428ef15b2f92dc50738aa85df699b6da"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="NTA DCA V2  VPC Worklog">6593f4eb2f31d810738aa85df699b6d0</action_type>
-        <action_type_parent display_value="NTA DCA V2  VPC Worklog">2403bcab2f31d810738aa85df699b6cb</action_type_parent>
+        <action_type display_value="">6593f4eb2f31d810738aa85df699b6d0</action_type>
+        <action_type_parent display_value="">2403bcab2f31d810738aa85df699b6cb</action_type_parent>
         <comment/>
         <compiled_snapshot>6593f4eb2f31d810738aa85df699b6d0</compiled_snapshot>
         <display_text/>
@@ -498,9 +490,15 @@
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>428ef15b2f92dc50738aa85df699b6da</sys_id>
         <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
         <ui_id>ba22098c-6f6f-4be3-9a76-ac5e047b4be9</ui_id>
@@ -520,31 +518,6 @@
         <value>Ordered Successfully</value>
         <variable display_value="">a593f4eb2f31d810738aa85df699b6d1</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=428ef15b2f92dc50738aa85df699b6da"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>message</field>
-        <id>428ef15b2f92dc50738aa85df699b6da</id>
-        <sys_created_by>Prakash</sys_created_by>
-        <sys_created_on>2020-08-03 15:03:58</sys_created_on>
-        <sys_id>028ef15b2f92dc50738aa85df699b6db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prakash</sys_updated_by>
-        <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6593f4eb2f31d810738aa85df699b6d0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sys_id_var</field>
-        <id>428ef15b2f92dc50738aa85df699b6da</id>
-        <sys_created_by>Prakash</sys_created_by>
-        <sys_created_on>2020-08-03 15:03:58</sys_created_on>
-        <sys_id>c28ef15b2f92dc50738aa85df699b6db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prakash</sys_updated_by>
-        <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6593f4eb2f31d810738aa85df699b6d0</table>
-        <value>{{Service Catalog_1.request_item.sys_id}}</value>
-    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=f98ef15b2f92dc50738aa85df699b662^sys_idNOT IN4a8ef15b2f92dc50738aa85df699b6db"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -552,11 +525,18 @@
         <flow display_value="Buy Iphone SE Flow">f98ef15b2f92dc50738aa85df699b662</flow>
         <name>Service Catalog</name>
         <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4a8ef15b2f92dc50738aa85df699b6db</sys_id>
         <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
@@ -569,11 +549,18 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>f98ef15b2f92dc50738aa85df699b662</id>
         <name>Buy Iphone SE Flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3d8ef15b2f92dc50738aa85df699b663</sys_id>
         <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:57</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -639,11 +626,13 @@
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>468ef15b2f92dc50738aa85df699b6cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
@@ -720,11 +709,13 @@
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>718ef15b2f92dc50738aa85df699b665</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
@@ -743,9 +734,8 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=f98ef15b2f92dc50738aa85df699b662^sys_idNOT IN428ef15b2f92dc50738aa85df699b6da"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="NTA DCA V2  VPC Worklog">6593f4eb2f31d810738aa85df699b6d0</action_type>
-        <action_type_parent display_value="NTA DCA V2  VPC Worklog">2403bcab2f31d810738aa85df699b6cb</action_type_parent>
+        <action_type display_value="">6593f4eb2f31d810738aa85df699b6d0</action_type>
+        <action_type_parent display_value="">2403bcab2f31d810738aa85df699b6cb</action_type_parent>
         <comment/>
         <compiled_snapshot>6593f4eb2f31d810738aa85df699b6d0</compiled_snapshot>
         <display_text/>
@@ -755,9 +745,15 @@
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>428ef15b2f92dc50738aa85df699b6da</sys_id>
         <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
         <ui_id>ba22098c-6f6f-4be3-9a76-ac5e047b4be9</ui_id>
@@ -777,31 +773,6 @@
         <value>Ordered Successfully</value>
         <variable display_value="">a593f4eb2f31d810738aa85df699b6d1</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=428ef15b2f92dc50738aa85df699b6da"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>message</field>
-        <id>428ef15b2f92dc50738aa85df699b6da</id>
-        <sys_created_by>Prakash</sys_created_by>
-        <sys_created_on>2020-08-03 15:03:58</sys_created_on>
-        <sys_id>028ef15b2f92dc50738aa85df699b6db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prakash</sys_updated_by>
-        <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6593f4eb2f31d810738aa85df699b6d0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sys_id_var</field>
-        <id>428ef15b2f92dc50738aa85df699b6da</id>
-        <sys_created_by>Prakash</sys_created_by>
-        <sys_created_on>2020-08-03 15:03:58</sys_created_on>
-        <sys_id>c28ef15b2f92dc50738aa85df699b6db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Prakash</sys_updated_by>
-        <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_6593f4eb2f31d810738aa85df699b6d0</table>
-        <value>{{Service Catalog_1.request_item.sys_id}}</value>
-    </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f98ef15b2f92dc50738aa85df699b662^sys_idNOT IN028ef15b2f92dc50738aa85df699b6d2,b18ef15b2f92dc50738aa85df699b679"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>request_item</element>
@@ -814,13 +785,15 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>028ef15b2f92dc50738aa85df699b6d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Iphone se" source="x_519952_iphone_se">f5ab65d72f52181048e8e36ef699b637</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f98ef15b2f92dc50738aa85df699b662_request_item_en</sys_update_name>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:58</sys_updated_on>
         <url/>
@@ -837,13 +810,15 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>Prakash</sys_created_by>
         <sys_created_on>2020-08-03 15:03:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b18ef15b2f92dc50738aa85df699b679</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Iphone se" source="x_519952_iphone_se">f5ab65d72f52181048e8e36ef699b637</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f98ef15b2f92dc50738aa85df699b662_table_name_en</sys_update_name>
         <sys_updated_by>Prakash</sys_updated_by>
         <sys_updated_on>2020-08-03 15:03:57</sys_updated_on>
         <url/>

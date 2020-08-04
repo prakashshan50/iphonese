@@ -58,11 +58,13 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>prakash</sys_created_by>
         <sys_created_on>2020-08-03 13:43:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>08fb211b2f52181048e8e36ef699b6f4</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Memory</sys_name>
         <sys_package display_value="Iphone se" source="x_519952_iphone_se">f5ab65d72f52181048e8e36ef699b637</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Iphone se">f5ab65d72f52181048e8e36ef699b637</sys_scope>
         <sys_update_name>item_option_new_08fb211b2f52181048e8e36ef699b6f4</sys_update_name>
         <sys_updated_by>prakash</sys_updated_by>
